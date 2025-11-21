@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.62/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.3","target":"arcade","targetVersion":"2.0.62","repo":"cabichuelasmarie-ops/yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyjdjhd"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.62/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.4","target":"arcade","targetVersion":"2.0.62","repo":"cabichuelasmarie-ops/yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyjdjhd"}
 // total=1735424 new=29.28% cached=66.52% other=4.21%
 (function (ectx) {
 'use strict';
@@ -438,7 +438,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P74652(s) {
+function _main___P74685(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -907,13 +907,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P74652.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P74652.continuations = [  ]
+_main___P74685.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P74685.continuations = [  ]
 
-function _main___P74652_mk(s) {
+function _main___P74685_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P74652, depth: s.depth + 1,
+        parent: s, fn: _main___P74685, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -44359,5 +44359,5 @@ const sprites_BaseSpriteSayRenderer__C58546_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___60639","tile1___60640","tile2___60641","tile3___60642","tile5___60644","tile4___60643","mySprite___60637"])
 
-return _main___P74652
+return _main___P74685
 })
